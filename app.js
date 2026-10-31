@@ -1,12 +1,20 @@
-import React from "react"; 
-function ButtonClickHandler() { const handleClick = () => { 
-alert("Button was clicked!"); 
-}; 
-return ( 
-<div> 
-<h2>Button Click Event</h2> 
-<button onClick={handleClick}>Button</button> 
-</div> 
-); 
-} 
-export default ButtonClickHandler;
+
+import React from 'react';
+
+function App() {
+
+  const handleClick = () => {
+    alert("Button Clicked Successfully!");
+  };
+
+  return (
+    <div>
+      <h1>React Button Click Event</h1>
+      <button onClick={handleClick}>
+        Click Me
+      </button>
+    </div>
+  );
+}
+
+export default App;
